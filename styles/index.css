@@ -1,11 +1,26 @@
+html,
+body {
+    margin: 2px;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
 #logo {
-    height: 100px;
+    height: 60px;
+    width: 60px;
+}
+
+.city {
+    height: 150px;
     width: 150px;
 }
-.city {
-    height: 300px;
-    width: 300px;
-}
+
 .social {
-    height: 22px;
+    height: 20px;
+    width: 22px;
+
 }
