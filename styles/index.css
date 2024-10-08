@@ -1,7 +1,13 @@
 html,
 body {
-    margin: 2px;
-    height: 100%;
+    margin: 0px;
+    height: auto;
+    background-color: #e0e0e0;
+}
+
+header,
+footer {
+    background-color: rosybrown;
 }
 
 .container {
@@ -14,7 +20,35 @@ body {
     width: 60px;
 }
 
-.city {
+.content .city {
+    background: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: background-color 300ms;
+}
+
+.content .city img {
+    height: 150px;
+    width: 150px;
+    padding: 5%;
+    border-radius: 25%;
+}
+
+.content .cityCard {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.content .cityCard img {
+    height: 150px;
+    width: 150px;
+    padding: 5%;
+    border-radius: 25%;
+}
+
+.cityImg {
     height: 150px;
     width: 150px;
 }

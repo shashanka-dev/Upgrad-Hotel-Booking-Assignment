@@ -1,4 +1,17 @@
-.contentClass .hotelImg {
+.content .hotelImg {
     height: 150px;
     width: 150px;
+  }
+
+  #hotel-list {
+    margin: 2%;
+  }
+  #hotel-list .hotel-card {
+    background-color: rgb(132, 136, 139);
+    height: auto;
+    width: 40%;
+  }
+  #hotel-list img {
+    height: 200px;
+    width: 250px;
   }

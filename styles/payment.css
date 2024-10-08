@@ -1,4 +1,23 @@
-.contentClass .hotelImg {
+.content .hotelImg {
     height: 500px;
     width: 500px;
-  }
+}
+
+.content .hotelDetails {
+    background-color: rgb(132, 136, 139);
+    width: 50%;
+    /* height: 20v; */
+    margin: 2% auto 2% auto;
+}
+
+.content .customerDetails,
+.tariffDetails {
+    margin: 2%;
+}
+
+.content .tariffDetails {
+    padding: 1% 2% 1% 2%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 5px;
+}
