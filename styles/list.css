@@ -3,15 +3,47 @@
     width: 150px;
   }
 
-  #hotel-list {
-    margin: 2%;
+  .viewstyle {
+    display: flex;
+    font-weight: 600;
   }
-  #hotel-list .hotel-card {
+
+  .listview, .mapview{
+    width: 50%;
+    padding: 1%;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .listview {
+    text-align: right;
+  }
+
+  .mapview {
+    text-align: left;
+  }
+
+  /* .hotel-list {
+    margin: 2.5%;
+    display: inline-block;
+  } */
+  .hotel-list .hotel-card {
     background-color: rgb(132, 136, 139);
     height: auto;
-    width: 40%;
+    width: 40vw;
+    margin: 1% 5% 1% 4%;
+    display: inline-block;
   }
-  #hotel-list img {
+  .hotel-list img {
     height: 200px;
     width: 250px;
+  }
+
+  #map-view {
+    visibility: hidden;
+    display: none;
   }

@@ -21,3 +21,12 @@
     border: 1px solid black;
     border-radius: 5px;
 }
+
+.payment {
+    padding-bottom: 20px;
+}
+
+.payment a {
+    text-decoration: none;
+    color: black;
+}

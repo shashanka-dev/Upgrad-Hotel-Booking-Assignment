@@ -3,11 +3,7 @@ body {
     margin: 0px;
     height: auto;
     background-color: #e0e0e0;
-}
-
-header,
-footer {
-    background-color: rosybrown;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -15,9 +11,45 @@ footer {
     width: 100%;
 }
 
+header,
+footer {
+    background-color: rosybrown;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+header {
+    top: 0;
+}
+
+.logoClass {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+
 #logo {
     height: 60px;
     width: 60px;
+    vertical-align: middle;
+}
+
+.loginClass {
+    width: calc(100% - 75px);
+    text-align: right;
+    display: inline-block;
+}
+
+.loginClass a {
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 .content .city {
@@ -27,6 +59,10 @@ footer {
     background-position: center;
     background-size: cover;
     transition: background-color 300ms;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .content .city img {
@@ -36,9 +72,23 @@ footer {
     border-radius: 25%;
 }
 
+#city {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 30%;
+}
+
 .content .cityCard {
     margin-left: 14%;
     margin-right: 14%;
+}
+
+.content .viewCard {
+    padding: 0 0 15 0;
+    text-align: center;
 }
 
 .content .cityCard img {
@@ -53,8 +103,40 @@ footer {
     width: 150px;
 }
 
+footer {
+    bottom: 0;
+    height: 60px;
+}
+
+.topFooter {
+    display: flex;
+}
+
+.topFooter a,
+.viewCard a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.leftFooter {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+}
+
+.rightFooter {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    padding: 10px;
+}
+
 .social {
     height: 20px;
     width: 22px;
+}
 
+.copyright {
+    font-size: 10px;
+    text-align: center;
 }
